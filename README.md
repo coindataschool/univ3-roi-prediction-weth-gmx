@@ -8,8 +8,8 @@ The dashboard compares the predictions with the actuals on a set of data that we
 used at all during model training and selection via cross-validation. It also 
 allows users to enter their own numbers and get back model predicted results. 
 
-![screen]()
+![screen](https://github.com/coindataschool/univ3-roi-prediction-weth-gmx/blob/main/screen.png)
 
 The models are limited by the data used for training. Use with caution.
 
-[Dashboard Link]()
+[Dashboard Link](https://coindataschool-univ3-roi-prediction-weth-gmx-main-ponc95.streamlit.app/)
