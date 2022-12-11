@@ -35,13 +35,13 @@ with c2:
     price_lower = st.number_input(
         "Set Price Range - Min", value=28.0, 
         min_value=4.0, max_value=42.0,
-        step=0.001, format="%.3f")
+        step=0.0001, format="%.4f")
 with c3:
     price_upper = st.number_input(
         "Set Price Range - Max", value=40.0,
         min_value=23.0,
         max_value=365.0,
-        step=0.001, format="%.3f")
+        step=0.0001, format="%.4f")
 with c4:
     age = st.number_input(
         "How many days will you provide liquidity for?", value=7.0, 
