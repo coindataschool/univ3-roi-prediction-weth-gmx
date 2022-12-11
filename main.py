@@ -26,7 +26,7 @@ st.markdown("""---""")
 
 # allow user to input values and get predictions
 st.header('Predict by entering your own values')
-st.markdown("Make sure enter numbers as precise as possible. For example, a price range of 28.1 - 39.8 can give a very different prediction than 28.1224 - 39.8142.")
+st.markdown("Make sure enter numbers as precise as possible. For example, a price range of 28.1 - 39.8 over 14.0 days can give a very different prediction than 28.1224 - 39.8142 over 14.6 days.")
 
 # user input
 c1, c2, c3, c4 = st.columns(4)
