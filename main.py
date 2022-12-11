@@ -26,7 +26,7 @@ st.markdown("""---""")
 
 # allow user to input values and get predictions
 st.header('Predict by entering your own values')
-st.markdown("Make sure enter numbers as precise as possible. For example, a price range of 28.1 - 39.8 can result in a very different prediction than a range of 28.1213 - 39.8134.")
+st.markdown("Make sure enter numbers as precise as possible. For example, a price range of 28.1 - 39.8 can give a very different prediction than 28.122 - 39.814.")
 
 # user input
 c1, c2, c3, c4 = st.columns(4)
@@ -36,13 +36,13 @@ with c2:
     price_lower = st.number_input(
         "Set Price Range - Min", value=28.0, 
         min_value=4.0, max_value=42.0,
-        step=0.0001, format="%.4f")
+        step=0.001, format="%.3f")
 with c3:
     price_upper = st.number_input(
         "Set Price Range - Max", value=40.0,
         min_value=23.0,
         max_value=365.0,
-        step=0.0001, format="%.4f")
+        step=0.001, format="%.3f")
 with c4:
     age = st.number_input(
         "How many days will you provide liquidity for?", value=7.0, 
