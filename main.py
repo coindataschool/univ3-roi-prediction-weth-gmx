@@ -11,7 +11,7 @@ st.set_page_config(page_title='ROI-Prediction-Univ3-WETH-GMX',
 st.title('Predict ROI and Fee APR of UniV3 WETH-GMX positions on Arbitrum with Machine Learning')
 
 # plot actual vs. predictions on test set
-st.header('Model performance on a set of data not used in training')
+st.header('Model performance on data not used in training')
 c1, c2 = st.columns(2)
 with c1:
     fig = plot_preds_vs_actuals('roi')
